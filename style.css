@@ -1,0 +1,116 @@
+body {
+    background-color: #0C134F;
+    color: #D4ADFC;
+    max-height: 650px;
+}
+.header {
+    background-color: #1D267D;
+    color: #D4ADFC;
+    padding: 20px;
+}
+
+.container .guest-star img{
+    height: 150px;
+}
+
+.guest-star {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+.left-images, .right-images {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px; /* Adjust spacing between images */
+}
+.judul {
+    text-align: center;
+}
+
+img {
+    width: 100%; /* Adjust image size as needed */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    height: 650px;
+    position: relative;
+}
+
+.deskripsi {
+    width: 1300px;
+}        
+
+.footer {
+    background-color: #5C469C;
+    color: #D4ADFC;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.footer .sponsor {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.btn-primary {
+    background-color: #5C469C;
+    border-color: #5C469C;
+}
+.btn-primary:hover {
+    background-color: #1D267D;
+    border-color: #1D267D;
+}
+.btn-success {
+    background-color: #1D267D;
+    border-color: #1D267D;
+}
+.btn-success:hover {
+    background-color: #5C469C;
+    border-color: #5C469C;
+}
+
+
+/* Form Style */
+.home-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.input-data input{
+    padding: 10px;
+    width: 1290px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-data button{
+    margin-top: 10px;
+}
+
+/* Untuk Chrome, Safari, Edge, dan Opera */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+/* Untuk Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
