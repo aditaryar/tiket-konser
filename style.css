@@ -25,6 +25,7 @@ body {
 }
 .judul {
     text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 img {
@@ -44,6 +45,7 @@ img {
 
 .deskripsi {
     width: 1300px;
+    font-family: 'Playfair Display', serif;
 }        
 
 .footer {
@@ -59,11 +61,6 @@ img {
     flex-grow: 1;
     text-align: center;
     font-size: 1.2em;
-}
-.social-icons img {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
 }
 
 .btn-primary {
@@ -89,14 +86,15 @@ img {
     position: absolute;
     left: 0;
     top: 0;
+    margin: 10px;
 }
-
 
 .input-data input{
     padding: 10px;
     width: 1290px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 .input-data button{
@@ -113,4 +111,14 @@ input[type=number]::-webkit-outer-spin-button {
 /* Untuk Firefox */
 input[type=number] {
     -moz-appearance: textfield;
+}
+
+
+/* Pembayaran */
+.qris{
+    margin-bottom: 15px;
+}
+
+.qris-scan {
+    width: 350px;
 }
